@@ -176,5 +176,4 @@ Membuat heatmap (peta warna) untuk memvisualisasikan angka-angka tersebut:
 annot=True = menampilkan angkanya langsung di kotak
 cmap='YlGnBu' = menggunakan gradasi warna dari kuning ke biru
 
-## CELL 12
 
