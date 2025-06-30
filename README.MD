@@ -68,6 +68,7 @@ Hasilnya disimpan dalam data_scaled, bentuknya adalah array numerik yang siap di
 
 Karena fitur seperti Glucose, Age, dan Insulin punya skala yang berbeda-beda.
 Kalau tidak dinormalisasi, fitur yang angkanya besar bisa mendominasi hasil clustering
+
 ## CELL 5
 kmeans = KMeans(n_clusters=3, random_state=0)
 n_clusters=3 → artinya data akan dikelompokkan menjadi 3 kelompok.
@@ -113,12 +114,10 @@ Menampilkan garis bantu (grid) agar titik-titik lebih mudah dibaca.
 
 Untuk melihat bagaimana pasien dikelompokkan (clustering) berdasarkan dua fitur utama: Glucose dan BMI.
 
-Misalnya:
+seperti:
 
 Cluster 0 → pasien dengan gula & BMI sedang
-
 Cluster 1 → pasien dengan BMI tinggi
-
 Cluster 2 → pasien dengan gula tinggi, dll.
 
 Hasilnya akan menunjukkan bagaimana pasien dikelompokkan berdasarkan
