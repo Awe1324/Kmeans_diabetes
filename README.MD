@@ -118,7 +118,7 @@ seperti:
 
 Cluster 0 → pasien dengan gula & BMI sedang
 Cluster 1 → pasien dengan BMI tinggi
-Cluster 2 → pasien dengan gula tinggi, dll.
+Cluster 2 → pasien dengan gula tinggi
 
 Hasilnya akan menunjukkan bagaimana pasien dikelompokkan berdasarkan
 kondisi medisnya.
